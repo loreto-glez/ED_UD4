@@ -5,7 +5,7 @@ public class average {
         int suma = 0;
 
         for (int i = 0; i < a; i++) {
-            suma += (int) (Math.random() * 50);
+            suma += (int) (Math.random() * 50) + 1;
         }
         System.out.println(suma);
     }
